@@ -584,12 +584,26 @@
 # print(sum(12,5))
 
 # DATA STRUCTURE INBUILT
-# LIST
+# LISTS 
 
-a = [12,13,15,16,17,18,True,"banana"]
-a[1]=12333
-print(a[2])
-print(a[0:5:2])
-print(a[-2])
+# a = [12,13,15,16,17,18,True,"banana"]
+# a[1]=12333
+# print(a[2])
+# print(a[0:5:2])
+# print(a[-2])
+# print(a[1])
 
 
+
+# LIST TRAVERSING & METHODS 
+# 1 WAY USING INDEX
+
+# a = [12,13,14,15,1,16,]
+# for i in range(len(a)):
+#     print(a[i])
+
+# 2nd WAY directly on values
+
+a = [12,13,14,15,1,16,]
+for i in a:
+    print(i)
